@@ -25,6 +25,14 @@
         height: 30rem;
 }
 
+.container_tech_touch
+{
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        align-items: center;
+}
+
 .small_container , .header_container
 {
       margin: auto;
@@ -151,6 +159,13 @@ body
         height: 26rem;
 }
 
+.technology
+{
+        height: 90%;
+        width: 80%;
+        margin: auto;
+}
+
 /* footer */
 
 
@@ -226,4 +241,13 @@ body
 .debug .box_small
 {
         background-color: lime;
+}
+
+.debug .container_tech_touch
+{
+        background-color: red;
+}
+.debug .technology
+{
+        background-color: gray;
 }
