@@ -9,9 +9,13 @@
 /* common */
 
 
+
 .header_container
 {
+        display: flex;
         width: 80%;
+        align-items: center;
+        height: 50%;
 }
 
 .small_container
@@ -41,9 +45,11 @@
 
 .row_header
 {
+        width: 100%;
         display: flex;
-        height: 3rem; 
-      /*   margin-left: -1rem;
+        height: 50%;
+        justify-content: space-between; 
+        /*   margin-left: -1rem;
         margin-right: -1rem; */
 }
 
@@ -115,6 +121,13 @@ body
 
 
 /* header */
+#site_header
+{
+        height: 3rem;
+        display: flex;
+        align-items: center;
+}
+
 .logo
 {
         align-self: center;
@@ -199,36 +212,18 @@ body
         height: 75%;
         justify-content: space-between;
 }
-.social 
-{
-        height: 100%;
-}
-.product
-{
-        height: 100%;
-}
-.company
-{
-        height: 100%;
-}
-.resources
-{
-        height: 100%;
-}
-.rules
-{
-        height: 100%;
-}
+
+
 
 .comp_adv
 {
-        height: 50%;
+       
         width: 5rem;
         align-self: center;
 }
 .sign_in
 {
-        height: 50%;
+       
         width: 5rem;
         align-self: center;
 }
@@ -243,37 +238,34 @@ body
 .debug .header_container
 {
         background-color: yellow;
-        border: 2px solid purple;
+       /* border: 2px solid purple; */
 }
 
 .debug .row_header
 {
         background-color: rgba(0, 0, 255, 0.093);
-        border: 1px solid black;
+        /*border: 1px solid black;*/
 }
 
-.debug .logo
-{
-        border: 1px solid black;
-}
+
 
 .debug .main_menu
 {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
 }
 
 .debug .main_menu .link
 {
-        border: 1px solid black;        
+        /* border: 1px solid black; */        
 }
 
 .debug .div_enter
 {
-        border: 1px solid red; 
+       /*  border: 1px solid red;  */
 }
 .debug .div_enter .enter
 {
-        border: 1px solid black;          
+       /*  border: 1px solid black; */          
 }
 
 .debug .welcome
@@ -289,7 +281,7 @@ body
 .debug .big_container_odd
 {
         background-color: aqua;
-        border: 1px solid red;
+       /*  border: 1px solid red; */
 }
 
 .debug .row
@@ -329,22 +321,27 @@ body
 .debug .social
 {
         background-color: blue;
+        height: 100%;
 }
 .debug .product
 {
         background-color: rgb(221, 0, 255);
+        height: 100%;
 }
 .debug .company
 {
         background-color: rgb(0, 255, 153);
+        height: 100%;
 }
 .debug .resources
 {
         background-color: darkgreen;
+        height: 100%;
 }
 .debug .rules
 {
         background-color: orange;
+        height: 100%;
 }
 
 .debug .row_footer_down
@@ -355,9 +352,11 @@ body
 .debug .comp_adv
 {
         background-color: yellow;
+        height: 50%;
 }
 
 .debug .sign_in
 {
         background-color: yellow;
+        height: 50%;
 }
